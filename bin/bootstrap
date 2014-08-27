@@ -47,16 +47,6 @@ class Bootstrap
     system_with_note('bundle exec rake db:setup')
   end
 
-  def install_bundle_cache
-    system_with_note('wget https://s3.amazonaws.com/bundle-cache-builds/bundle_cache')
-    system_with_note('chmod +x ./bundle_cache')
-    system_with_note('./bundle_cache download ; echo 1')
-  end
-
-  def upload_bundle_cache
-    system_with_note('./bundle_cache upload')
-  end
-
   def setup_file_from_template(file)
     unless File.exists?(File.join(rails_root, file))
       puts "#{file} is missing, installing..."
