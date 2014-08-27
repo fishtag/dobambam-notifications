@@ -68,6 +68,7 @@ group :test do
   gem 'minitest'
   gem 'shoulda-matchers'
   gem 'turnip'
+  gem 'codeclimate-test-reporter'
 end
 
 group :staging, :production do

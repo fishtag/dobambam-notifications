@@ -88,6 +88,8 @@ GEM
     cliver (0.3.2)
     code_analyzer (0.4.4)
       sexp_processor
+    codeclimate-test-reporter (0.4.0)
+      simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -111,7 +113,7 @@ GEM
     currencies (0.4.2)
     database_cleaner (1.2.0)
     debug_inspector (0.0.2)
-    decent_exposure (2.3.1)
+    decent_exposure (2.3.2)
     devise (3.0.4)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -369,6 +371,7 @@ DEPENDENCIES
   brakeman
   bullet
   capybara
+  codeclimate-test-reporter
   coffee-rails
   compass-rails
   database_cleaner
