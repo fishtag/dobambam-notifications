@@ -1,0 +1,11 @@
+#endpoints
+  table
+    thead
+      tr
+        th= Endpoint.human_attribute_name(:id)
+        th= Endpoint.human_attribute_name(:repost_url)
+    tbody
+      - endpoints.each do |endpoint|
+        tr
+          td= endpoint.id
+          td= endpoint.repost_url

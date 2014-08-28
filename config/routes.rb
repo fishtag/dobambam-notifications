@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  resources :endpoints
+  resources :endpoints, except: :show
 end

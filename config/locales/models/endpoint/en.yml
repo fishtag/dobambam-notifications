@@ -1,0 +1,6 @@
+en:
+  activerecord:
+    attributes:
+      endpoint:
+        id: ID
+        repost_url: Repost URL
