@@ -9,6 +9,7 @@ gem 'rails-i18n'
 gem 'puma' # multithreaded concurent web-server
 gem 'pg' # Default DB engine
 gem 'json'
+gem 'grape' # API framework
 
 # Asset gems
 gem 'sass-rails'
