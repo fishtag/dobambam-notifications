@@ -44,6 +44,7 @@ group :development do
   gem 'rails-erd', github: 'paulwittmann/rails-erd', branch: 'mavericks'
   gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
   gem 'spring' # preload instances
+  gem 'spring-commands-rspec'
 end
 
 group :development, :test do
