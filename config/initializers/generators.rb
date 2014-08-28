@@ -1,4 +1,4 @@
-RailsBase::Application.configure do
+DobambamNotifications::Application.configure do
    config.app_generators do |g|
      g.stylesheets false
      g.helper false

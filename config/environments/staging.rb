@@ -1,4 +1,4 @@
-RailsBase::Application.configure do
+Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -80,5 +80,5 @@ RailsBase::Application.configure do
 
   # Application specific options
   #
-  config.host = 'fs-rails-base-staging.herokuapp.com'
+  config.host = 'dobambam-notifications-staging.herokuapp.com'
 end

@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module RailsBase
+module DobambamNotifications
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -22,15 +22,15 @@ module RailsBase
     # Application specific options
     #
     # Name used in the html titles and mailers
-    config.app_name = 'Rails Base example site'
+    config.app_name = 'DoBamBam Notifications'
 
     # Slim engine default option, initializers/slim.rb
     config.slim_options = {}
 
     # Default e-mail address which will be shown in the "from" devise emails, initializers/devise.rb,
-    config.noreply = 'noreply@fs-rails-base.heroku.com'
+    config.noreply = 'noreply@dobambam-notifications.herokuapp.com'
 
     # Default host for action mailer, initializers/mailer.rb
-    config.host = 'localhost:5000'
+    config.host = 'dobambam-notifications.dev'
   end
 end

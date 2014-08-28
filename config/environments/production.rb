@@ -73,4 +73,5 @@ Rails.application.configure do
 
   # Application specific options
   config.active_record.dump_schema_after_migration = false
+  config.host = 'dobambam-notifications.herokuapp.com'
 end
